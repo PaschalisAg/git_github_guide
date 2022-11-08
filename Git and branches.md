@@ -50,11 +50,11 @@ This happens because Git does not know which changes you want to keep. This is c
 ## delete branch
 When we are done and we don't need the new branch anymore, we can delete it. The goal end is to integrate all the changes into the `main` branch. Once this has been done then the branch has served its purpose and can be deleted.
 The command to do that is the following:
-```
+```powershell
 git branch -d new_branch_name
 ```
 If the branches have never been merged to the `main` branch, we will need to write a different command:
-```
+```powershell
 git branch -D new_branch_name
 ```
 
