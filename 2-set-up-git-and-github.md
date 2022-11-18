@@ -37,15 +37,21 @@ Next, we will set up Git on your personal computer. Follow the instructions for 
 
 3. If you don’t already have Git installed, a dialog will appear saying that “The ‘git’ command requires the command line developer tools. Would you like to install the tools now?” Click “Install”.
 
-![macInstall](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_xcode_prompt.png)
+<p align = "center"><img src = "https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_xcode_prompt.png"></p><p align = "center">
+Git and bash setup for Mac; installation of Git (image taken from [Codecademy](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_xcode_prompt.png))
+</p>
 
 Then click “Agree to the Terms of Service” when requested.
 
-![macAgree](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_xcode_terms.png)
+<p align = "center"><img src = "https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_xcode_terms.png"></p><p align = "center">
+Git and bash setup for Mac; Licence Agreement (image taken from [Codecademy](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_xcode_terms.png))
+</p>
 
 4. When the download finishes, the installer will go away on its own signifying that Git is now installed! Click “Done” to finish the installation process.
 
-![macDone](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_xcode_finished.png)
+<p align = "center"><img src = "https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_xcode_finished.png"></p><p align = "center">
+Git and bash setup for Mac; sucessful installation (image taken from [Codecademy](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_xcode_finished.png))
+</p>
 
 5. Navigate to GitHub’s articles on setting up your [Git username](https://help.github.com/articles/set-up-git/) and [email](https://help.github.com/articles/setting-your-email-in-git/) and follow the instructions for each using Terminal.
 
@@ -61,17 +67,24 @@ This portion of the guide assumes you have already installed a program called Gi
 
 1. Open the Start menu and search for the app, git bash. You should see ‘Git Bash Desktop app’ appear. Press Enter or click on the Git Bash icon to open the app.
 
-![gitBashOpen](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_gitbash_start.png)
+
+<p align = "center"><img src = "https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_gitbash_start.png"></p><p align = "center">
+Git and bash setup for Windows; Open Git Bash (image taken from [Codecademy](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_gitbash_start.png))
+</p>
 
 A new window will open that looks like this:
 
-![gitBashShell](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_gitbash_shell_edited.png)
+<p align = "center"><img src = "https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_gitbash_shell_edited.png"></p><p align = "center">
+Git and bash setup for Windows; visualisation of the git bash cell (image taken from [Codecademy](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_gitbash_shell_edited.png))
+</p>
 
 This window is our CLI, where we will use our Git commands.
 
 2. If you want to make sure that Git is installed, run `git --version` in the CLI. You should see a response that gives you the version of Git installed. It will look like this:
 
-![gitVersion](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_gitbash_test_edited.png)
+<p align = "center"><img src = "https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_gitbash_test_edited.png"></p><p align = "center">
+Git and bash setup for Windows; check your Git version (image taken from [Codecademy](https://content.codecademy.com/courses/freelance-1/unit-3/git%20bash%20setup/annotated_gitbash_test_edited.png))
+</p>
 
 Git can now be used in the Git Bash app!
 
@@ -107,17 +120,38 @@ Now, let’s connect our local Git repository to GitHub.
 $ git status
 ```
 
-3. On GitHub, create a new repository by clicking the **New repository** button on the home page.![newRepository](https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/newrepository.png)
 
-4. On the new repository page, give your repository a name. It’s not necessary, but it would be convenient to name it the same as the directory, **git_practice**. After naming the repository, click **Create repository**.![createRepository](https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/createrepository.png)
+3. On GitHub, create a new repository by clicking the **New repository** button on the home page.
+<p align = "center"><img src = "https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/newrepository.png"></p><p align = "center">
+Graphic User Interface of Github; by clicking on the button "New repository" you tell Github to create a remote Github repository (image taken from [Codecademy](https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/newrepository.png))
+</p>
 
-5. After creating a repository, GitHub displays the repository page. At the top of the page, make sure “HTTPS” is selected.![githubHttps](https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/githubhttps.png)
+
+
+4. On the new repository page, give your repository a name. It’s not necessary, but it would be convenient to name it the same as the directory, **git_practice**. After naming the repository, click **Create repository**.
+
+<p align = "center"><img src = "https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/createrepository.png"></p><p align = "center">
+Graphic User Interface of Github; Give your repository a short but descriptive name (hint: make sure to separate different words either with underscores or hyphens, because this will prevent git from throwing an error). After you give some additional information for different aspects of your Github repository, click on the button "Create Repository"(image taken from [Codecademy](https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/createrepository.png))
+</p>
+
+
+5. After creating a repository, GitHub displays the repository page. At the top of the page, make sure “HTTPS” is selected.
+
+<p align = "center"><img src = "https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/githubhttps.png"></p><p align = "center">
+Populating a remote repository ising  "HTTPS" (image taken from [Codecademy](https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/githubhttps.png))
+</p>
+
 
 6.The repository is empty, so it’s time to connect it to your existing work. Copy the Git commands on the GitHub page, under the title “…or push an existing repository from the command line”, and paste them into your Command Line Interface. Running these commands will add a remote repository, and then push your local repository to the remote repository.
 
-When asked for a username and password, type in your GitHub username and password and press `enter` after each. Don’t be alarmed if you can’t see the characters you are typing, they are intentionally hidden as a security measure.![githubCommands](https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/githubcommands.png)
+When asked for a username and password, type in your GitHub username and password and press `enter` after each. Don’t be alarmed if you can’t see the characters you are typing, they are intentionally hidden as a security measure.
+
+<p align = "center"><img src = "https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/githubcommands.png"></p><p align = "center">
+Graphic User Interface of Github; these are the commands with which you can populate your remote Github repository. Always remember that you should run every command on a separate line" (image taken from [Codecademy](https://content.codecademy.com/courses/freelance-1/unit-3/git%20setup/githubcommands.png))
+</p>
 
 **Note:** If you set up two-factor authentication with GitHub (don’t worry if you didn’t), follow [GitHub’s instructions on creating a personal access (OAuth) token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) to be used instead of your password in bash. By default, GitHub does not set up two-factor authentication. If you are not familiar with two-factor authentication, you don’t have to generate an OAuth token.
+
 
 7. Once your Command Line Interface reports that the push is complete, refresh the page on GitHub. You should now see the text you wrote earlier in the README file, “Hello Git and GitHub.”
 

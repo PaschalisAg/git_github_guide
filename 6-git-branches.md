@@ -1,17 +1,11 @@
-## git branch
+# git branch
 Git allows us to create branches to experiment and work on different versions of a project.
 
 To see on which branch you are on, you simply have to type:
-```
-git branch
+```jupyter
+!git branch
 ```
 The asterisk has all the information for you.
-
-## branching overview
-
-![The diagram shows a new branch being formed off the main branch.](https://content.codecademy.com/courses/learn-git/git-diagram-1.svg)
-- The circles are the commits; all together they form the Git project's commit history.
-- *New Branch* is a different version of the Git project
 
 ## create a new branch
 By default, Git has only one branch, `master`.
@@ -23,7 +17,7 @@ git branch new_branch_name
 Keep in mind that by creating a new branch you are not automatically moving to it.
 
 ## moving to a new branch
-To move to a new branch, you need to use the already known `git checkout` command (see [[Git#git checkout]]) 
+To move to a new branch, you need to use the already known `git checkout` command (see [[1. Git#git checkout]]) 
 
 So if you type:
 ```
@@ -50,11 +44,11 @@ This happens because Git does not know which changes you want to keep. This is c
 ## delete branch
 When we are done and we don't need the new branch anymore, we can delete it. The goal end is to integrate all the changes into the `main` branch. Once this has been done then the branch has served its purpose and can be deleted.
 The command to do that is the following:
-```powershell
+```
 git branch -d new_branch_name
 ```
 If the branches have never been merged to the `main` branch, we will need to write a different command:
-```powershell
+```
 git branch -D new_branch_name
 ```
 

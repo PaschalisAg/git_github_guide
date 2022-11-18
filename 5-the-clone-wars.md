@@ -1,4 +1,5 @@
-## git clone
+# The Clone Wars
+## 1 git clone
 Part of Git is also **teamwork**.
 In any time, Git allows to store a remote repository (i.e., a repository uploaded on Github) locally in our computer.
 To do so, we need to run the following command:
@@ -8,7 +9,7 @@ git clone remote_location clone_name
 - `remote_location`: is where Git can find the remote repository. Usually it is a web address, but it can also be a filepath.
 - `clone_name`: it is the name we give to the directory in which Git will clone the repository. In other words, the name of our clone. The `clone_name` will be our local copy of the remote repository from Github.
 
-## git remote -v
+## 2 git remote -v
 When we clone a remote repository, Git does something behind the scenes.
 What it does is to give the remote address the name *origin*, so that we can refer to the remote repository more conveniently.
 
@@ -20,7 +21,7 @@ git remote -v
 After running this command, Git will list the name of the remote (i.e., `origin`), as well as its location
 The remote is listed twice: once as `fetch` and once as `push`.
 
-## git fetch
+## 3 git fetch
 Let's assume that you clone a repository, but in the meantime the moderator made some changes.
 A very easy and handy way to see if changes have been made to the remote repository and at the same time bring the changes back to your local copy is with the following command:
 ```
@@ -36,7 +37,7 @@ Unpacking objects: 100% (5/5), done.
 From /home/ccuser/workspace/curriculum-a/science-quizzes
  * [new branch]      master     -> origin/master
 ```
-## git merge
+## 4 git merge
 We have already covered what `git merge` (see, [[Git and branches#git merge]]) actually does, but now let's see what it does when it comes to a remote repository and its fetched version.
 
 The output above shows the new commits that the moderator did to the project have been fetched to our local copy of the Git project, and that those commits are on the `origin/master` branch.
@@ -48,14 +49,14 @@ With that said, by running the following command we have this accomplished:
 git merge origin/master
 ```
 
-## git push
+## 5 git push
 If we want to push the changes up to the remote, `origin`, we run the following command:
 ```
 git push origin our_branch_name
 ```
 This way Sally will be able to review our branch and, if necessary to `merge` our work into the `master` branch.
 
-## Git workflow for collaborations
+## 6 Git workflow for collaborations
 
 Now that we've merged `origin/master` into your local `master` branch, you’re ready to contribute some work of your own. The workflow for Git collaborations typically follows this order:
 
@@ -67,7 +68,7 @@ Now that we've merged `origin/master` into your local `master` branch, you�
 
 Steps 1 and 4 are a safeguard against _merge conflicts_, which occur when two branches contain file changes that cannot be merged with the `git merge` command.
 
-## Summary
+## 7 Summary
 -   A _remote_ is a Git repository that lives _outside_ your Git project folder. Remotes can live on the web, on a shared network or even in a separate folder on your local computer.
 -   The _Git Collaborative Workflow_ are steps that enable smooth project development when multiple collaborators are working on the same Git project.
 
