@@ -7,7 +7,7 @@ Of course the notes have been enhanced by me in order to fully grasp some conten
 
 You do not need to have anything pre-installed other than a software that can read markdown files.
 Move to the directory where you want to save this repository:
-`cd ...your_path...`
+`cd {your_path}`
 
 And then run in your Terminal (for MacOS users) or Git Bash (for Windows users):
 `git clone https://github.com/PaschalisAg/git_github_guide.git`
