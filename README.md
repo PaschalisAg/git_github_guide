@@ -12,6 +12,6 @@ Move to the directory where you want to save this repository:
 And then run in your Terminal (for MacOS users) or Git Bash (for Windows users):
 `git clone https://github.com/PaschalisAg/git_github_guide.git`
 
-And voilà! Now you have access to the notes. Enjoy the reading and I hop you will find them useful.
+And voilà! Now you have access to the notes. Enjoy the reading and I hope you will find them useful.
 
 If someone wants to contribute to fix these issues or even to enhance the material feel free to email me or open an issue.
